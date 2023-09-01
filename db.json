@@ -1,0 +1,398 @@
+{
+  "users": [
+    {
+      "name": "demo",
+      "email": "demo@demo",
+      "password": "demo",
+      "id": "1"
+    },
+    {
+      "name": "2",
+      "email": "oleg@demo.ru",
+      "password": "3",
+      "id": "152td9wllpmiwja"
+    },
+    {
+      "name": "Katya",
+      "email": "therinbae@gmail.com",
+      "password": "123",
+      "id": "152tf98llpmplqp"
+    },
+    {
+      "name": "Danya",
+      "email": "danya@mail.com",
+      "password": "234",
+      "id": "152t5wklm0mafjh"
+    },
+    {
+      "name": "Gosha",
+      "email": "gosha@mail.ru",
+      "password": "345",
+      "id": "152totklm0o2pyx"
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Банк",
+      "user_id": "1",
+      "id": "1"
+    },
+    {
+      "name": "Магазин",
+      "user_id": "1",
+      "id": "2"
+    },
+    {
+      "name": "Бизнес",
+      "user_id": "1",
+      "id": "3"
+    },
+    {
+      "name": "Сбер",
+      "user_id": "152tf98llpmplqp",
+      "id": "152tizcllqzv6wc"
+    },
+    {
+      "name": "Альфа-Банк",
+      "user_id": "152tf98llpmplqp",
+      "id": "152tmbsllr25uph"
+    },
+    {
+      "name": "Тинькофф",
+      "user_id": "152tf98llpmplqp",
+      "id": "152tkvsllr29gan"
+    },
+    {
+      "name": "QIWI",
+      "user_id": "152tf98llpmplqp",
+      "id": "152tdkwllv7hw1i"
+    },
+    {
+      "name": "тест3",
+      "user_id": "152tf98llpmplqp",
+      "id": "152tl2wllzh8q0y"
+    },
+    {
+      "name": "Даня",
+      "user_id": "152tf98llpmplqp",
+      "id": "152tr38lm0mdv9a"
+    }
+  ],
+  "transactions": [
+    {
+      "account_id": "1",
+      "created_at": "2019-09-15 10:24:02",
+      "id": "1",
+      "name": "Кредит",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "1",
+      "created_at": "2019-09-17 15:53:02",
+      "id": "2",
+      "name": "Баланс на дебетовке",
+      "sum": 3200,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "1",
+      "created_at": "2019-09-19 20:12:02",
+      "id": "3",
+      "name": "Копилка",
+      "sum": 1500,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 16:23:02",
+      "id": "4",
+      "name": "Молочные продукты",
+      "sum": 100,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "5",
+      "name": "Фрукты",
+      "sum": 250,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "17",
+      "name": "Овощи",
+      "sum": 300,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 14:47:02",
+      "id": "6",
+      "name": "Мясо",
+      "sum": 600,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-27 13:27:02",
+      "id": "7",
+      "name": "Долг в банк",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-10-15 13:27:02",
+      "id": "9",
+      "name": "На банду",
+      "sum": 15000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-17 13:27:02",
+      "id": "10",
+      "name": "На стволы",
+      "sum": 6000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-12-27 13:27:02",
+      "id": "11",
+      "name": "Прибыль с банка",
+      "sum": 1500000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "12",
+      "name": "Прибыль с магазина",
+      "sum": 300000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "13",
+      "name": "Подарок сизого",
+      "sum": 20000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-15 13:27:02",
+      "id": "14",
+      "name": "На охрану",
+      "sum": 60000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-10-15 13:27:02",
+      "id": "15",
+      "name": "На бумер",
+      "sum": 300000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "id": "152tkw0llwpfdwj",
+      "type": "income",
+      "name": "Трата",
+      "sum": 100,
+      "account_id": "152tizcllqzv6wc",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-29T19:31:40.962Z"
+    },
+    {
+      "id": "152tc8kllwpga8a",
+      "type": "income",
+      "name": "Трата",
+      "sum": 100,
+      "account_id": "152tizcllqzv6wc",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-29T19:32:22.858Z"
+    },
+    {
+      "id": "152t7e8llwpihif",
+      "type": "income",
+      "name": "Трата",
+      "sum": 100,
+      "account_id": "152tizcllqzv6wc",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-29T19:34:05.606Z"
+    },
+    {
+      "id": "152t27sllwpir2m",
+      "type": "expense",
+      "name": "Трата",
+      "sum": 100,
+      "account_id": "152tizcllqzv6wc",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-29T19:34:17.998Z"
+    },
+    {
+      "id": "152tmgcllwpjdgt",
+      "type": "expense",
+      "name": "Трата",
+      "sum": 100,
+      "account_id": "152tizcllqzv6wc",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-29T19:34:47.020Z"
+    },
+    {
+      "id": "152tm6sllwpku8p",
+      "type": "expense",
+      "name": "Трата",
+      "sum": 100,
+      "account_id": "152tizcllqzv6wc",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-29T19:35:55.416Z"
+    },
+    {
+      "id": "152tjv0llwplg42",
+      "type": "income",
+      "name": "Доход",
+      "sum": 150,
+      "account_id": "152tizcllqzv6wc",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-29T19:36:23.761Z"
+    },
+    {
+      "id": "152tjr0llwpn38s",
+      "type": "expense",
+      "name": "Трата",
+      "sum": 100,
+      "account_id": "152tizcllqzv6wc",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-29T19:37:40.395Z"
+    },
+    {
+      "id": "152tnncllwpnwaq",
+      "type": "expense",
+      "name": "Трата",
+      "sum": 25,
+      "account_id": "152tizcllqzv6wc",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-29T19:38:18.049Z"
+    },
+    {
+      "id": "152tcuwllwpp75a",
+      "type": "expense",
+      "name": "Трата",
+      "sum": 1,
+      "account_id": "152tizcllqzv6wc",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-29T19:39:18.765Z"
+    },
+    {
+      "id": "152t64ollwprkmu",
+      "type": "expense",
+      "name": "Трата",
+      "sum": 1,
+      "account_id": "152tizcllqzv6wc",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-29T19:41:09.557Z"
+    },
+    {
+      "id": "152tnicllwps2z7",
+      "type": "expense",
+      "name": "Трата",
+      "sum": 1,
+      "account_id": "152tizcllqzv6wc",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-29T19:41:33.330Z"
+    },
+    {
+      "id": "152t65gllwpvzoa",
+      "type": "expense",
+      "name": "Трата",
+      "sum": 1,
+      "account_id": "152tizcllqzv6wc",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-29T19:44:35.674Z"
+    },
+    {
+      "id": "152tklgllwpz0er",
+      "type": "expense",
+      "name": "Трата",
+      "sum": 12,
+      "account_id": "152tizcllqzv6wc",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-29T19:46:56.594Z"
+    },
+    {
+      "id": "152tgkollz9k92w",
+      "type": "income",
+      "name": "Доход",
+      "sum": 25,
+      "account_id": "152tizcllqzv6wc",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-31T14:30:52.663Z"
+    },
+    {
+      "id": "152t31ollz9l1r0",
+      "type": "income",
+      "name": "Доход",
+      "sum": 100,
+      "account_id": "152tmbsllr25uph",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-31T14:31:29.819Z"
+    },
+    {
+      "id": "152tgkgllze0kih",
+      "type": "income",
+      "name": "Доход",
+      "sum": 1,
+      "account_id": "152tizcllqzv6wc",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-31T16:35:32.440Z"
+    },
+    {
+      "id": "152to4ollze3g6g",
+      "type": "income",
+      "name": "Доход",
+      "sum": 3,
+      "account_id": "152tizcllqzv6wc",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-31T16:37:46.791Z"
+    },
+    {
+      "id": "152thn0llzfymet",
+      "type": "expense",
+      "name": "Трата",
+      "sum": 20,
+      "account_id": "152tmbsllr25uph",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-31T17:30:00.820Z"
+    },
+    {
+      "id": "152tnr0llzh9e6n",
+      "type": "income",
+      "name": "Доход",
+      "sum": 220000,
+      "account_id": "152tl2wllzh8q0y",
+      "user_id": "152tf98llpmplqp",
+      "created_at": "2023-08-31T18:06:22.990Z"
+    }
+  ]
+}

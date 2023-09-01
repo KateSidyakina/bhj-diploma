@@ -12,7 +12,10 @@ class UserWidget {
    * необходимо выкинуть ошибку.
    * */
   constructor(element){
-
+    if (!element) {
+      throw new Error('element is not defined');
+    }
+    this.element = element;
   }
 
   /**
@@ -23,6 +26,9 @@ class UserWidget {
    * авторизованного пользователя
    * */
   update(){
-
+    const userInfo = User.current();
+    if (userInfo) {
+      document.querySelector('.user-name').textContent = userInfo.name;
+    }
   }
 }
